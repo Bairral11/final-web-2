@@ -1,3 +1,24 @@
-﻿body
-{
+﻿body {
+    background-image: url("background-seamless.jpg");
+    background-repeat: repeat;
+}
+
+.container-flex {
+
+    margin: 0 auto;
+    
+    max-width: 70%;
+    width: 100%;
+    min-height: 100vh; 
+    /* 3. CENTRALIZAÇÃO DO CONTEÚDO INTERNO */
+    display: flex;
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+    flex-direction: column; /* Organiza o conteúdo em coluna (se houver vários itens) */
+    /* 4. ESTILOS VISUAIS */
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    /* Posição e Z-index */
+    position: relative;
+    z-index: 10;
 }
