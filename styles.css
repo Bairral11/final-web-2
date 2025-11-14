@@ -159,3 +159,12 @@ button:hover {
         background-color: #d80303;
     }
 
+.header-link {
+    color: white; /* Ou outra cor de alto contraste */
+    text-decoration: none; /* Remove sublinhado */
+    font-size: 1em;
+    padding: 5px 10px; /* Área clicável maior */
+    display: inline-block;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
