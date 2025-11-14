@@ -1,25 +1,4 @@
-/*// Array de Espécies
-let especieArray = ["Humano", "Elfo", "Anão", "Halfling", "Gnomo", "Draconato", "Tiefling", "Goliath", "Aasimar", "Orc"];
 
-// Array de Classes
-let classeArray = ["Artífice", "Bárbaro", "Bardo", "Clérigo", "Druida", "Guerreiro", "Monge", "Paladino", "Patrulheiro", "Ladino", "Feiticeiro", "Bruxo", "Mago"];
-// Array de Imagens de Classes
-
-
-// Array de Origens
-let origemArray = ["Acólito", "Artesão", "Charlatão", "Criminoso", "Artista", "Fazendeiro", "Guarda", "Guia", "Eremita", "Mercador", "Nobre", "Sábio", "Marinheiro", "Escriba", "Soldado", "Viajante"];
-
-var especieAleatoria = especieArray[Math.floor(especieArray.length * Math.random())];
-console.log(especieAleatoria);
-
-
-var classeAleatoria = classeArray[Math.floor(classeArray.length * Math.random())];
-console.log(classeAleatoria);
-
-
-var origemAleatoria = origemArray[Math.floor(origemArray.length * Math.random())];
-console.log(origemAleatoria);
-*/
 const IMAGENS_ESPECIE = {
     "Humano": "imagens/especie/humano.avif",
     "Elfo": "imagens/especie/elfo.avif",
@@ -53,7 +32,7 @@ const IMAGENS_ORIGEM = {
     "Acólito": "imagens/origem/acolito.png",
     "Artesão": "imagens/origem/artesao.png",
     "Charlatão": "imagens/origem/charlatao.png",
-    "Criminoso": "url/para/imagem/criminoso.png",
+    "Criminoso": "imagens/origem/criminoso.png",
     "Artista": "imagens/origem/artista.png",
     "Fazendeiro": "imagens/origem/fazendeiro.png",
     "Guarda": "imagens/origem/guarda.png",
@@ -78,11 +57,6 @@ function gerarItemAleatorio(array) {
     return array[Math.floor(array.length * Math.random())];
 }
 
-console.log(`Espécie: ${especieAleatoria} - Img: ${especieImg}`);
-console.log(`Classe: ${classeAleatoria} - Img: ${classeImg}`);
-console.log(`Origem: ${origemAleatoria} - Img: ${origemImg}`);
-
-
 function exibirResultado() {
 
     var especieAleatoria = gerarItemAleatorio(especieArray);
@@ -105,7 +79,35 @@ function exibirResultado() {
 }
 
 
+function rolarCaracteristica(tipo) {
+    let array;
+    let imagens;
 
+    switch (tipo) {
+        case 'especie':
+            array = especieArray;
+            imagens = IMAGENS_ESPECIE;
+            break;
+        case 'classe':
+            array = classeArray;
+            imagens = IMAGENS_CLASSE;
+            break;
+        case 'origem':
+            array = origemArray;
+            imagens = IMAGENS_ORIGEM;
+            break;
+        default:
+            console.error(`Tipo de característica inválido: ${tipo}`);
+            return;
+    }
+
+    const itemAleatorio = gerarItemAleatorio(array);
+    const itemImg = imagens[itemAleatorio];
+
+    document.getElementById(`card-${tipo}-nome`).textContent = itemAleatorio;
+    document.getElementById(`card-${tipo}-img`).src = itemImg;
+
+}
 function flipCard(card) {
     card.classList.toggle('flipped')
 }

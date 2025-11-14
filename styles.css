@@ -1,7 +1,56 @@
 ﻿body {
     background-image: url("backgroundfinal.jpg");
     background-repeat: no-repeat;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
+
+html, body {
+    /* Garante que a largura máxima da página seja o tamanho da viewport */
+    max-width: 100%;
+    max-height:100%;
+    /* Esconde qualquer conteúdo que tente ultrapassar essa largura no eixo X */
+    overflow-x: hidden;
+}
+
+.header {
+    /* Layout com Flexbox para centralizar itens */
+    display: flex;
+    justify-content: space-between; /* Espaça 'Sobre' à esquerda e empurra o espaço à direita */
+    align-items: center; /* Alinha verticalmente */
+    /* Estilização e Transparência */
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    padding: 15px 30px;
+    box-sizing: border-box; /* Garante que padding e borda não aumentem o width total */
+    position: relative; /* Opcional: fixa o header no topo */
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.header-title {
+    /* Centraliza o título, ignorando o espaço da esquerda/direita */
+    /* Usando 'margin: auto' em um container flexível com 'space-between' */
+    margin: 0 auto;
+    color: white; /* Cor do texto dentro do header transparente */
+    font-size: 1.5em;
+    /* Opacidade: 0.1 é muito baixo, então o texto será quase invisível.
+       Se você quiser o texto visível mas o fundo transparente, veja a nota abaixo! */
+}
+
+.header-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+/* Para garantir que o link "Sobre" ocupe a primeira posição */
+.header nav {
+    /* Isso garante que a navegação ocupe o espaço mínimo necessário */
+    flex-shrink: 0;
+}
+
+
 
 .container-flex {
     margin: 0 auto;
@@ -87,7 +136,10 @@
 .resultado-nome {
     font-size: 1.8em;
     font-weight: bold;
-    color: #960000;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 5px;
     margin-top: 15px; /* Espaçamento entre o card e o nome */
     margin-bottom: 0;
     text-transform: capitalize;
