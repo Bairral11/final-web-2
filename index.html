@@ -6,13 +6,48 @@
     <title>Gerador de Aventureiro</title>
     <link rel="stylesheet" href="styles.css"/>
 </head>
+
 <body>
+    
     <div class="container-flex">
-    <h1>Gerador de Aventureiro</h1>
-    <p>Clique para gerar um personagem de D&D 2024</p>
-</div>
-    <div id="cards">
+        <h1>Gerador de Aventureiro</h1>
+        <p>Clique para gerar um personagem de D&D 2024</p>
+        <main id="container-cards">
+
+            <div class="card-wrapper" onclick="rolarCaracteristica('especie')">
+                <div class="card" id="card-especie">
+                    <img id="card-especie-img" src="card.png" alt="Imagem da Espécie">
+                    <div class="card-title-overlay">
+                        <h2>Espécie</h2>
+                    </div>
+                </div>
+                <p class="resultado-nome" id="card-especie-nome">...</p>
+            </div>
+
+            <div class="card-wrapper" onclick="rolarCaracteristica('classe')">
+                <div class="card" id="card-classe">
+                    <img id="card-classe-img" src="card.png" alt="Imagem da Classe">
+                    <div class="card-title-overlay">
+                        <h2>Classe</h2>
+                    </div>
+                </div>
+                <p class="resultado-nome" id="card-classe-nome">...</p>
+            </div>
+
+            <div class="card-wrapper" onclick="rolarCaracteristica('origem')">
+                <div class="card" id="card-origem">
+                    <img id="card-origem-img" src="card.png" alt="Imagem da Origem">
+                    <div class="card-title-overlay">
+                        <h2>Origem</h2>
+                    </div>
+                </div>
+                <p class="resultado-nome" id="card-origem-nome">...</p>
+            </div>
+
+        </main>
+        <button onclick="exibirResultado()">Gerar Novo Personagem</button>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
