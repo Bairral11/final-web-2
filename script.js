@@ -4,7 +4,7 @@ const IMAGENS_ESPECIE = {
     "Elfo": "imagens/especie/elfo.avif",
     "Anão": "imagens/especie/anao.avif",
     "Halfling": "imagens/especie/halfling.jpg",
-    "Gnomo": "imagens/especie/gnomo.avif",
+    "Gnomo": "imagens/especie/gnomo.jpg",
     "Draconato": "imagens/especie/draconato.webp",
     "Tiefling": "imagens/especie/tiefling.avif",
     "Goliath": "imagens/especie/goliath.avif",
