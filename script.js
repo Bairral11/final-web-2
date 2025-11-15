@@ -2,7 +2,7 @@
 const IMAGENS_ESPECIE = {
     "Humano": "imagens/especie/humano.avif",
     "Elfo": "imagens/especie/elfo.avif",
-    "Anão": "imagens/especie/anao.avif",
+    "AnÃ£o": "imagens/especie/anao.avif",
     "Halfling": "imagens/especie/halfling.jpg",
     "Gnomo": "imagens/especie/gnomo.avif",
     "Draconato": "imagens/especie/draconato.webp",
@@ -13,10 +13,10 @@ const IMAGENS_ESPECIE = {
 };
 
 const IMAGENS_CLASSE = {
-    "Artífice": "imagens/classe/artifice.webp",
-    "Bárbaro": "imagens/classe/barbaro.jpg",
+    "ArtÃ­fice": "imagens/classe/artifice.webp",
+    "BÃ¡rbaro": "imagens/classe/barbaro.jpg",
     "Bardo": "imagens/classe/bardo.jpg",
-    "Clérigo": "imagens/classe/clerigo.jpg",
+    "ClÃ©rigo": "imagens/classe/clerigo.jpg",
     "Druida": "imagens/classe/druida.webp",
     "Guerreiro": "imagens/classe/guerreiro.jpg",
     "Monge": "imagens/classe/monge.webp",
@@ -29,9 +29,9 @@ const IMAGENS_CLASSE = {
 };
 
 const IMAGENS_ORIGEM = {
-    "Acólito": "imagens/origem/acolito.png",
-    "Artesão": "imagens/origem/artesao.png",
-    "Charlatão": "imagens/origem/charlatao.png",
+    "AcÃ³lito": "imagens/origem/acolito.png",
+    "ArtesÃ£o": "imagens/origem/artesao.png",
+    "CharlatÃ£o": "imagens/origem/charlatao.png",
     "Criminoso": "imagens/origem/criminoso.png",
     "Artista": "imagens/origem/artista.png",
     "Fazendeiro": "imagens/origem/fazendeiro.png",
@@ -40,7 +40,7 @@ const IMAGENS_ORIGEM = {
     "Eremita": "imagens/origem/eremita.png",
     "Mercador": "imagens/origem/mercador.png",
     "Nobre": "imagens/origem/nobre.png",
-    "Sábio": "imagens/origem/sabio.png",
+    "Sï¿½bio": "imagens/origem/sabio.png",
     "Marinheiro": "imagens/origem/marinheiro.png",
     "Escriba": "imagens/origem/escriba.png",
     "Soldado": "imagens/origem/soldado.png",
@@ -53,12 +53,11 @@ let classeArray = Object.keys(IMAGENS_CLASSE);
 let origemArray = Object.keys(IMAGENS_ORIGEM);
 
 
-function gerarItemAleatorio(array) {
+function gerarItemAleatorio(array){
     return array[Math.floor(array.length * Math.random())];
 }
 
-function exibirResultado() {
-
+function exibirResultado(){
     var especieAleatoria = gerarItemAleatorio(especieArray);
     var classeAleatoria = gerarItemAleatorio(classeArray);
     var origemAleatoria = gerarItemAleatorio(origemArray);
@@ -97,7 +96,7 @@ function rolarCaracteristica(tipo) {
             imagens = IMAGENS_ORIGEM;
             break;
         default:
-            console.error(`Tipo de característica inválido: ${tipo}`);
+            console.error(`Tipo de caracterï¿½stica invï¿½lido: ${tipo}`);
             return;
     }
 
