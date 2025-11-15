@@ -172,3 +172,13 @@ button:active{
         height: auto;
     }
 }
+
+/* Slider */
+#dvSlider {
+    width: 1000px;
+    height: 500px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 2px 4px 6px 2px #000000;
+    margin: auto
+}

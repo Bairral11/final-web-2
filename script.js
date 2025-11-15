@@ -104,6 +104,25 @@ function rolarCaracteristica(tipo) {
 
 }
 
-function flipCard(card) {
-    card.classList.toggle('flipped')
+var slides = new Array('s1.avif','s2.avif','s3.webp','s4.jpg','s5.avif')
+var tam = slides.length
+var patual = 0
+var tmpslider
+
+function trocaAutomatica(){
+	patual++
+	if(patual >=tam){
+		patual = 0
+	}
+	document.querySelector('#dvSlider').style.backgroundImage=`url('${slides[patual]}')`
 }
+
+function iniciaSlider(){
+	document.querySelector('#dvSlider').style.backgroundImage=`url('${slides[patual]}')`
+	tmpslider = setInterval(trocaAutomatica,3000)
+}
+
+function parar(){
+	clearInterval(tmpslider)
+}
+
