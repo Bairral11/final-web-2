@@ -1,68 +1,76 @@
-﻿body{
+﻿/* Cabecalho da página */
+header{
+    padding: 20px 0;
+    background-color: rgba(24, 0, 179, 0.3);
+}
+
+.container-header{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: relative; 
+}
+
+.container-header h1{
+    margin: 0;
+    color: white;
+    font-size: 24px;
+}
+
+.container-header nav{
+    position: absolute;
+    right: 7px;
+}
+
+.container-header nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Corpo da página */ 
+body{
     background-image: url("backgroundfinal.jpg");
     background-repeat: no-repeat;
     font-family:'Trebuchet MS';
-}
-
-html, body{
-    max-width: 100%;
-    max-height:100%;
-    overflow-x: hidden;
-}
-
-header{
-    display: flex;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.1);
-    width: 100%;
-    padding: 15px 30px;
-    box-sizing: border-box;     
-    position: relative; 
-    top: 0;
-    left: 0;
-    z-index: 100;
+    background-attachment: fixed;
+    background-color: rgba(24, 0, 179, 0.5);
 }
 
 a{
     cursor: pointer;
 }
 
-button {
-    border: 2px solid #960000;
-    background-color: #ad0000;
+button{
+    border: 2px solid #000fb1;
+    background-color: #0000be;
+    color: white;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
     border-radius: 0.9em;
     cursor: pointer;
     padding: 0.8em 1.2em 0.8em 1em;
-    transition: all ease-in-out 0.2s;
     font-size: 16px;
+    outline: none;
 }
+
 button:hover {
-        background-color: #d80303;
+        background-color: #0800ff;
 }
 
-.header-title{
-    margin: 0 auto;
-    color: white; 
-    font-size: 1.5em;
-}
+button:active{
+    transform: scale(0.95);
+} 
 
-.header-link {
-    color: white;
-    text-decoration: none;
-    font-size: 1em;
-}
-
-.header nav {
-    flex-shrink: 0;
-}
-
+/* Cards */
 .container-flex {
     margin: 0 auto;
-    max-width: 100%;
     width: 100%;
     min-height: 100vh;
     display: flex;
-    align-items: center; 
+    align-items: center;
     flex-direction: column;
     padding: 40px;
     background-color: rgba(0, 0, 0, 0.1);
@@ -92,12 +100,10 @@ button:hover {
     height: 400px;
     padding: 0;
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
     border: 3px solid #b5a04e; 
-    border-radius: 12px;
-
 }
 
 .card:hover{
@@ -106,16 +112,17 @@ button:hover {
 }
 
 .card img{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+        
 }
 
-.card-title-overlay {
+.card-title-overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -148,11 +155,20 @@ button:hover {
     text-align: center;
 }
 
-.header-link {
-    color: white; 
-    text-decoration: none; 
-    font-size: 1em;
-    padding: 5px 10px; 
-    display: inline-block;
-    transition: color 0.3s ease, background-color 0.3s ease;
+/* Responsividade */
+@media (max-width: 600px) {
+    .container-header h1 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .container-header nav {
+        right: 10px;
+        font-size: 14px;
+    }
+
+    .card {
+        width: 90%;
+        height: auto;
+    }
 }

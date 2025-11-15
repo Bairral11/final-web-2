@@ -1,4 +1,3 @@
-
 const IMAGENS_ESPECIE = {
     "Humano": "imagens/especie/humano.avif",
     "Elfo": "imagens/especie/elfo.avif",
@@ -40,18 +39,16 @@ const IMAGENS_ORIGEM = {
     "Eremita": "imagens/origem/eremita.png",
     "Mercador": "imagens/origem/mercador.png",
     "Nobre": "imagens/origem/nobre.png",
-    "S�bio": "imagens/origem/sabio.png",
+    "Sábio": "imagens/origem/sabio.png",
     "Marinheiro": "imagens/origem/marinheiro.png",
     "Escriba": "imagens/origem/escriba.png",
     "Soldado": "imagens/origem/soldado.png",
     "Viajante": "imagens/origem/viajante.png"
 };
 
-
 let especieArray = Object.keys(IMAGENS_ESPECIE);
 let classeArray = Object.keys(IMAGENS_CLASSE);
 let origemArray = Object.keys(IMAGENS_ORIGEM);
-
 
 function gerarItemAleatorio(array){
     return array[Math.floor(array.length * Math.random())];
@@ -76,7 +73,6 @@ function exibirResultado(){
     document.getElementById('card-origem-nome').textContent = origemAleatoria;
     document.getElementById('card-origem-img').src = origemImg;
 }
-
 
 function rolarCaracteristica(tipo) {
     let array;
@@ -107,6 +103,7 @@ function rolarCaracteristica(tipo) {
     document.getElementById(`card-${tipo}-img`).src = itemImg;
 
 }
+
 function flipCard(card) {
     card.classList.toggle('flipped')
 }
