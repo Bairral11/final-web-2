@@ -47,51 +47,51 @@ const IMAGENS_ORIGEM = {
 };
 
 const DESCRICOES_CLASSE = {
-    "Artífice": "Engenhosos inventores que criam itens mágicos poderosos.",
-    "Bárbaro": "Usam sua fúria inigualável para obliterar seus inimigos e resistir à dano.",
-    "Bardo": "Mestres em inspirar aliados e manipular inimigos com música e magia versátil.",
-    "Bruxo": "Aqueles que fizeram pacto com um ser extraordinário e receberam poderes mágicos.",
-    "Clérigo": "Devotos canalizadores da vontade divina, mestres em cura e combate.",
-    "Druida": "Guardiões da natureza capazes de se transformar em bestas e manipular elementos.",
-    "Feiticeiro": "Sua magia inata proporciona uso flexível da magia bruta.",
-    "Guerreiro": "Mestres táticos do campo de batalha, versáteis em todos os tipos de combate.",
-    "Ladino": "Furtivos, espertos, capazes de ataques fatais a partir das sombras.",
-    "Mago": "Estudiosos da magia arcana que manipulam a realidade pelo conhecimento.",
-    "Monge": "Especialistas em combate desarmado com movimentos rápidos e acrobáticos.",
-    "Paladino": "Guerreiros sagrados que juram votos e combinam cura com golpes devastadores.",
-    "Patrulheiro": "Rastreadores habilidosos, combatentes da natureza e aliados de animais."
+    "Artífice": "Artífice: Engenhosos inventores que criam itens mágicos poderosos.",
+    "Bárbaro": "Bárbaro: Usam sua fúria inigualável para obliterar seus inimigos e resistir à dano.",
+    "Bardo": "Bardo: Mestres em inspirar aliados e manipular inimigos com música e magia versátil.",
+    "Bruxo": "Bruxo: Aqueles que fizeram pacto com um ser extraordinário e receberam poderes mágicos.",
+    "Clérigo": "Clérigo: Devotos canalizadores da vontade divina, mestres em cura e combate.",
+    "Druida": "Druida: Guardiões da natureza capazes de se transformar em bestas e manipular elementos.",
+    "Feiticeiro": "Feiticeiro: Sua magia inata proporciona uso flexível da magia bruta.",
+    "Guerreiro": "Guerreiro: Mestres táticos do campo de batalha, versáteis em todos os tipos de combate.",
+    "Ladino": "Ladino: Furtivos, espertos, capazes de ataques fatais a partir das sombras.",
+    "Mago": "Mago: Estudiosos da magia arcana que manipulam a realidade pelo conhecimento.",
+    "Monge": "Monge: Especialistas em combate desarmado com movimentos rápidos e acrobáticos.",
+    "Paladino": "Paladino: Guerreiros sagrados que juram votos e combinam cura com golpes devastadores.",
+    "Patrulheiro": "Patrulheiro: Rastreadores habilidosos, combatentes da natureza e aliados de animais."
 };
 
 const DESCRICOES_ESPECIE = {
-    "Aasimar": "Descendentes de seres celestiais com luz divina interior.",
-    "Anão": "Povo robusto e resistente, excelentes artesãos.",
-    "Draconato": "Descendentes de dragões com arma de sopro elemental.",
-    "Elfo": "Elegantes, mágicos e de vida longa.",
-    "Gnomo": "Pequenos inventores engenhosos.",
-    "Goliath": "Descendentes de gigantes, muito fortes.",
-    "Halfling": "Sortudos, furtivos e afáveis.",
-    "Humano": "Adaptáveis e diversos.",
-    "Orc": "Ferozes e agressivos, resistentes pela adrenalina.",
-    "Tiefling": "Povo de sangue infernal com acesso a magias poderosas."
+    "Aasimar": "Aasimar: Descendentes de seres celestiais com luz divina interior.",
+    "Anão": "Anão: Povo robusto e resistente, excelentes artesãos.",
+    "Draconato": "Draconato: Descendentes de dragões com arma de sopro elemental.",
+    "Elfo": "Elfo: Elegantes, mágicos e de vida longa.",
+    "Gnomo": "Gnomo: Pequenos inventores engenhosos.",
+    "Goliath": "Goliath: Descendentes de gigantes, muito fortes.",
+    "Halfling": "Halfling: Sortudos, furtivos e afáveis.",
+    "Humano": "Humano: Adaptáveis e diversos.",
+    "Orc": "Orc: Ferozes e agressivos, resistentes pela adrenalina.",
+    "Tiefling": "Tiefling: Povo de sangue infernal com acesso a magias poderosas."
 };
 
 const DESCRICOES_ORIGEM = {
-    "Acólito": "Serviu em um templo, adquirindo conhecimento religioso.",
-    "Artesão": "Trabalhou com ofícios como metal, couro, bebidas ou armas.",
-    "Artista": "Se apresentava em tavernas com música, dança ou humor.",
-    "Charlatão": "Aplicava golpes e manipulava pessoas.",
-    "Criminoso": "Vivia roubando ou assaltando.",
-    "Eremita": "Passou anos recluso longe da civilização.",
-    "Escriba": "Aprendeu escrita e preservação de conhecimento.",
-    "Fazendeiro": "Cresceu cuidando de animais e plantações.",
-    "Guarda": "Treinado para vigiar e identificar ameaças.",
-    "Guia": "Veio de terras selvagens e inexploradas.",
-    "Marinheiro": "Viveu no mar enfrentando tempestades.",
-    "Mercador": "Aprendeu comércio com caravanas e lojistas.",
-    "Nobre": "Cresceu com privilégios e educação refinada.",
-    "Sábio": "Viajou por bibliotecas e coleções estudando.",
-    "Soldado": "Treinado desde cedo para a guerra.",
-    "Viajante": "Cresceu nas ruas, sobrevivendo com pouco."
+    "Acólito": "Acólito: Serviu em um templo, adquirindo conhecimento religioso.",
+    "Artesão": "Artesão: Trabalhou com ofícios como metal, couro, bebidas ou armas.",
+    "Artista": "Artista: Se apresentava em tavernas com música, dança ou humor.",
+    "Charlatão": "Charlatão: Aplicava golpes e manipulava pessoas.",
+    "Criminoso": "Criminoso: Vivia roubando ou assaltando.",
+    "Eremita": "Eremita: Passou anos recluso longe da civilização.",
+    "Escriba": "Escriba: Aprendeu escrita e preservação de conhecimento.",
+    "Fazendeiro": "Fazendeiro: Cresceu cuidando de animais e plantações.",
+    "Guarda": "Guarda: Treinado para vigiar e identificar ameaças.",
+    "Guia": "Guia: Veio de terras selvagens e inexploradas.",
+    "Marinheiro": "Marinheiro: Viveu no mar enfrentando tempestades.",
+    "Mercador": "Mercador: Aprendeu comércio com caravanas e lojistas.",
+    "Nobre": "Nobre: Cresceu com privilégios e educação refinada.",
+    "Sábio": "Sábio: Viajou por bibliotecas e coleções estudando.",
+    "Soldado": "Soldado: Treinado desde cedo para a guerra.",
+    "Viajante": "Viajante: Cresceu nas ruas, sobrevivendo com pouco."
 };
 
 let especieArray = Object.keys(IMAGENS_ESPECIE);
