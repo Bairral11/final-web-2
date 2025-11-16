@@ -104,7 +104,7 @@ function rolarCaracteristica(tipo) {
 
 }
 
-var slides = new Array('s1.avif','s2.avif','s3.webp','s4.jpg','s5.avif')
+var slides = new Array('s1.avif','s2.avif','s3.jpg','s4.jpg','s5.avif')
 var tam = slides.length
 var patual = 0
 var tmpslider
