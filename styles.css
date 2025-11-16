@@ -180,15 +180,17 @@ button:active{
 
 /* Página sobre */
 table{
-    width: 100%;
+    width: 60%;
     border-collapse: collapse;
     margin: 20px 0;
+
 }
 
 th, td{
     border: 1px solid #ccc;
     padding: 10px;
     vertical-align: top;
+
 }
 
 th{

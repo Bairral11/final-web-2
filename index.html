@@ -18,12 +18,20 @@
         <div class="container-flex">
             <h1>Bem-vindo ao Gerador de Aventureiro!</h1>
             <p>
-                Nesse site você pode gerar aventureiros de maneira aleatória para suas mesas de RPG ou histórias, 
+                Nesse site você pode gerar aventureiros de maneira aleatória para suas mesas de RPG ou histórias,
                 usamos como referência a edição 2024 de Dungeons and Dragons. Para conhecer mais sobre cada uma das
                 espécies, classes e origens acesse a aba "sobre" encontrada no canto superior direito desta página
-                <a href="gerador.html">Clique aqui</a> para gerar um personagem de D&D 2024! Você receberá uma 
+                <a href="gerador.html">Clique aqui</a> para gerar um personagem de D&D 2024! Você receberá uma
                 espécie, classe e origem para se inspirar e criar seu personagem. Se não gostar, pode gerar outro!
             </p>
+            <button class="botao" onclick="navegarPara('gerador.html')">
+                Gerar Personagem!
+            </button>
+            <script>
+                function navegarPara(url) {
+                    window.location.href = url;
+                }
+            </script>
             <!-- Slider -->
             <div id='dvSlider'></div>
         </div>
