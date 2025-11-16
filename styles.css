@@ -96,6 +96,7 @@ button:active{
     margin-bottom: 40px;
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 10px;
+    padding: 20px;
 }
 
 .card-wrapper{
@@ -174,6 +175,18 @@ button:active{
     align-items: center;
     text-align: center;
     cursor: pointer;
+}
+
+#button_gerador{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    position: relative;
+    z-index: 10;
+}
 }
 
 /* Slider */
