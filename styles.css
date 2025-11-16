@@ -154,12 +154,16 @@ button:active{
 }
 
 .card-title-overlay h2 {
-        color: white;
-        margin: 0;
-        font-size: 1.5em;
-        font-weight: bold;
-        text-transform: uppercase;
-        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
 }
 
 .resultado-nome{
