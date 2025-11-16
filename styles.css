@@ -2,6 +2,7 @@
 header{
     padding: 20px 0;
     background-color: rgba(24, 0, 179, 0.5);
+    border-radius: 10px;
 }
 
 .container-header{
@@ -45,6 +46,8 @@ html, body {
 
 p{
     width: 80%;
+    font-size: 18px;
+    text-align: center;
 }
 
 .container-flex {
@@ -55,7 +58,7 @@ p{
     align-items: center;
     flex-direction: column;
     padding: 0;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     position: relative;
     z-index: 10;
@@ -93,8 +96,7 @@ button:active{
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 40px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     padding: 20px;
 }
@@ -187,7 +189,6 @@ button:active{
     position: relative;
     z-index: 10;
 }
-}
 
 /* Slider */
 #dvSlider {
@@ -204,7 +205,6 @@ table{
     width: 60%;
     border-collapse: collapse;
     margin: 20px 0;
-
 }
 
 th, td{
@@ -235,8 +235,10 @@ footer{
     padding: 20px 0;
     text-align: center;
     background-color: rgba(24, 0, 179, 0.5);
+    border-radius: 10px;
     color: white;
-    margin-top: 50px;
+    position: relative;
+    bottom: 0;
 }
 
 /* Responsividade */
