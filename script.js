@@ -125,4 +125,3 @@ function iniciaSlider(){
 function parar(){
 	clearInterval(tmpslider)
 }
-
