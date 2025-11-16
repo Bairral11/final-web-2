@@ -1,7 +1,7 @@
 ﻿/* Cabecalho da página */
 header{
     padding: 20px 0;
-    background-color: rgba(24, 0, 179, 0.3);
+    background-color: rgba(24, 0, 179, 0.5);
 }
 
 .container-header{
@@ -29,7 +29,7 @@ header{
     color: white;
     text-decoration: none;
     font-size: 18px;
-}
+} 
 
 /* Corpo da página */ 
 body{
@@ -41,6 +41,24 @@ body{
 
 html, body {
     overflow-x: hidden;
+}
+
+p{
+    width: 80%;
+}
+
+.container-flex {
+    margin: auto;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    position: relative;
+    z-index: 10;
 }
 
 a{
@@ -68,20 +86,6 @@ button:active{
 } 
 
 /* Cards */
-.container-flex {
-    margin: 0 auto;
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 40px;
-    background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    position: relative;
-    z-index: 10;
-}
-
 #container-cards{
     max-width: 100%;
     overflow-x: hidden;
@@ -90,6 +94,8 @@ button:active{
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
 
 .card-wrapper{
@@ -108,12 +114,12 @@ button:active{
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
-    border: 3px solid #b5a04e; 
+    border: 3px solid #b5a04e;
 }
 
 .card:hover{
-        transform: translateY(-5px);
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .card img{
@@ -147,8 +153,8 @@ button:active{
         text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
 }
 
-.resultado-nome {
-    font-size: 1.8em;
+.resultado-nome{
+    font-size: 1.5em;
     font-weight: bold;
     color: white;
     background-color: black;
@@ -158,6 +164,8 @@ button:active{
     margin-bottom: 0;
     text-transform: capitalize;
     text-align: center;
+    background: rgba(0,0,0,0.8);
+    padding: 8px 15px;
 }
  
 .card-wrapper {
@@ -180,7 +188,7 @@ button:active{
 
 /* Página sobre */
 table{
-    width: 100%;
+    width: 60%;
     border-collapse: collapse;
     margin: 20px 0;
 }
@@ -204,6 +212,16 @@ td{
 
 h1, h2, p{
     margin-left: 0;
+}
+
+/* Footer */
+footer{
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background-color: rgba(24, 0, 179, 0.5);
+    color: white;
+    margin-top: 50px;
 }
 
 /* Responsividade */
