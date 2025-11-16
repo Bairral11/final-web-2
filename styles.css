@@ -244,6 +244,11 @@ footer {
     bottom: 0;
 }
 
+.p-footer{
+    font-size: 14px;
+    margin: auto;
+}
+
 /* Responsividade */
 @media (max-width: 600px) {
     .container-header h1 {
