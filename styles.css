@@ -104,7 +104,6 @@ button:active{
     flex-wrap: wrap;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
     padding: 20px;
 }
 
