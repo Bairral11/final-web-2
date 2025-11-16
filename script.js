@@ -47,51 +47,51 @@ const IMAGENS_ORIGEM = {
 };
 
 const DESCRICOES_CLASSE = {
-    "Artífice": "Artífice: Engenhosos inventores que criam itens mágicos poderosos.",
-    "Bárbaro": "Bárbaro: Usam sua fúria inigualável para obliterar seus inimigos e resistir à dano.",
-    "Bardo": "Bardo: Mestres em inspirar aliados e manipular inimigos com música e magia versátil.",
-    "Bruxo": "Bruxo: Aqueles que fizeram pacto com um ser extraordinário e receberam poderes mágicos.",
-    "Clérigo": "Clérigo: Devotos canalizadores da vontade divina, mestres em cura e combate.",
-    "Druida": "Druida: Guardiões da natureza capazes de se transformar em bestas e manipular elementos.",
-    "Feiticeiro": "Feiticeiro: Sua magia inata proporciona uso flexível da magia bruta.",
-    "Guerreiro": "Guerreiro: Mestres táticos do campo de batalha, versáteis em todos os tipos de combate.",
-    "Ladino": "Ladino: Furtivos, espertos, capazes de ataques fatais a partir das sombras.",
-    "Mago": "Mago: Estudiosos da magia arcana que manipulam a realidade pelo conhecimento.",
-    "Monge": "Monge: Especialistas em combate desarmado com movimentos rápidos e acrobáticos.",
-    "Paladino": "Paladino: Guerreiros sagrados que juram votos e combinam cura com golpes devastadores.",
-    "Patrulheiro": "Patrulheiro: Rastreadores habilidosos, combatentes da natureza e aliados de animais."
+    "Artífice": "<b>Artífice:</b> Engenhosos inventores que criam itens mágicos poderosos.",
+    "Bárbaro": "<b>Bárbaro:</b> Usam sua fúria inigualável para obliterar seus inimigos e resistir à dano.",
+    "Bardo": "<b>Bardo:</b> Mestres em inspirar aliados e manipular inimigos com música e magia versátil.",
+    "Bruxo": "<b>Bruxo:</b> Aqueles que fizeram pacto com um ser extraordinário e receberam poderes mágicos.",
+    "Clérigo": "<b>Clérigo:</b> Devotos canalizadores da vontade divina, mestres em cura e combate.",
+    "Druida": "<b>Druida:</b> Guardiões da natureza capazes de se transformar em bestas e manipular elementos.",
+    "Feiticeiro": "<b>Feiticeiro:</b> Sua magia inata proporciona uso flexível da magia bruta.",
+    "Guerreiro": "<b>Guerreiro:</b> Mestres táticos do campo de batalha, versáteis em todos os tipos de combate.",
+    "Ladino": "<b>Ladino:</b> Furtivos, espertos, capazes de ataques fatais a partir das sombras.",
+    "Mago": "<b>Mago:</b> Estudiosos da magia arcana que manipulam a realidade pelo conhecimento.",
+    "Monge": "<b>Monge:</b> Especialistas em combate desarmado com movimentos rápidos e acrobáticos.",
+    "Paladino": "<b>Paladino:</b> Guerreiros sagrados que juram votos e combinam cura com golpes devastadores.",
+    "Patrulheiro": "<b>Patrulheiro:</b> Rastreadores habilidosos, combatentes da natureza e aliados de animais."
 };
 
 const DESCRICOES_ESPECIE = {
-    "Aasimar": "Aasimar: Descendentes de seres celestiais com luz divina interior.",
-    "Anão": "Anão: Povo robusto e resistente, excelentes artesãos.",
-    "Draconato": "Draconato: Descendentes de dragões com arma de sopro elemental.",
-    "Elfo": "Elfo: Elegantes, mágicos e de vida longa.",
-    "Gnomo": "Gnomo: Pequenos inventores engenhosos.",
-    "Goliath": "Goliath: Descendentes de gigantes, muito fortes.",
-    "Halfling": "Halfling: Sortudos, furtivos e afáveis.",
-    "Humano": "Humano: Adaptáveis e diversos.",
-    "Orc": "Orc: Ferozes e agressivos, resistentes pela adrenalina.",
-    "Tiefling": "Tiefling: Povo de sangue infernal com acesso a magias poderosas."
+    "Aasimar": "<b>Aasimar:</b> Descendentes de seres celestiais com luz divina interior.",
+    "Anão": "<b>Anão:</b> Povo robusto e resistente, excelentes artesãos.",
+    "Draconato": "<b>Draconato:</b> Descendentes de dragões com arma de sopro elemental.",
+    "Elfo": "<b>Elfo:</b> Elegantes, mágicos e de vida longa.",
+    "Gnomo": "<b>Gnomo:</b> Pequenos inventores engenhosos.",
+    "Goliath": "<b>Goliath:</b> Descendentes de gigantes, muito fortes.",
+    "Halfling": "<b>Halfling:</b> Sortudos, furtivos e afáveis.",
+    "Humano": "<b>Humano:</b> Adaptáveis e diversos.",
+    "Orc": "<b>Orc:</b> Ferozes e agressivos, resistentes pela adrenalina.",
+    "Tiefling": "<b>Tiefling:</b> Povo de sangue infernal com acesso a magias poderosas."
 };
 
 const DESCRICOES_ORIGEM = {
-    "Acólito": "Acólito: Serviu em um templo, adquirindo conhecimento religioso.",
-    "Artesão": "Artesão: Trabalhou com ofícios como metal, couro, bebidas ou armas.",
-    "Artista": "Artista: Se apresentava em tavernas com música, dança ou humor.",
-    "Charlatão": "Charlatão: Aplicava golpes e manipulava pessoas.",
-    "Criminoso": "Criminoso: Vivia roubando ou assaltando.",
-    "Eremita": "Eremita: Passou anos recluso longe da civilização.",
-    "Escriba": "Escriba: Aprendeu escrita e preservação de conhecimento.",
-    "Fazendeiro": "Fazendeiro: Cresceu cuidando de animais e plantações.",
-    "Guarda": "Guarda: Treinado para vigiar e identificar ameaças.",
-    "Guia": "Guia: Veio de terras selvagens e inexploradas.",
-    "Marinheiro": "Marinheiro: Viveu no mar enfrentando tempestades.",
-    "Mercador": "Mercador: Aprendeu comércio com caravanas e lojistas.",
-    "Nobre": "Nobre: Cresceu com privilégios e educação refinada.",
-    "Sábio": "Sábio: Viajou por bibliotecas e coleções estudando.",
-    "Soldado": "Soldado: Treinado desde cedo para a guerra.",
-    "Viajante": "Viajante: Cresceu nas ruas, sobrevivendo com pouco."
+    "Acólito": "<b>Acólito:</b> Serviu em um templo, adquirindo conhecimento religioso.",
+    "Artesão": "<b>Artesão:</b> Trabalhou com ofícios como metal, couro, bebidas ou armas.",
+    "Artista": "<b>Artista:</b> Se apresentava em tavernas com música, dança ou humor.",
+    "Charlatão": "<b>Charlatão:</b> Aplicava golpes e manipulava pessoas.",
+    "Criminoso": "<b>Criminoso:</b> Vivia roubando ou assaltando.",
+    "Eremita": "<b>Eremita:</b> Passou anos recluso longe da civilização.",
+    "Escriba": "<b>Escriba:</b> Aprendeu escrita e preservação de conhecimento.",
+    "Fazendeiro": "<b>Fazendeiro:</b> Cresceu cuidando de animais e plantações.",
+    "Guarda": "<b>Guarda:</b> Treinado para vigiar e identificar ameaças.",
+    "Guia": "<b>Guia:</b> Veio de terras selvagens e inexploradas.",
+    "Marinheiro": "<b>Marinheiro:</b> Viveu no mar enfrentando tempestades.",
+    "Mercador": "<b>Mercador:</b> Aprendeu comércio com caravanas e lojistas.",
+    "Nobre": "<b>Nobre:</b> Cresceu com privilégios e educação refinada.",
+    "Sábio": "<b>Sábio:</b> Viajou por bibliotecas e coleções estudando.",
+    "Soldado": "<b>Soldado:</b> Treinado desde cedo para a guerra.",
+    "Viajante": "<b>Viajante:</b> Cresceu nas ruas, sobrevivendo com pouco."
 };
 
 let especieArray = Object.keys(IMAGENS_ESPECIE);
@@ -118,15 +118,15 @@ function exibirResultado() {
 
     document.getElementById('card-especie-nome').textContent = especieAleatoria;
     document.getElementById('card-especie-img').src = especieImg;
-    document.getElementById('card-especie-desc').textContent = especieDesc;
+    document.getElementById('card-especie-desc').innerHTML = especieDesc;
 
     document.getElementById('card-classe-nome').textContent = classeAleatoria;
     document.getElementById('card-classe-img').src = classeImg;
-    document.getElementById('card-classe-desc').textContent = classeDesc;
+    document.getElementById('card-classe-desc').innerHTML = classeDesc;
 
     document.getElementById('card-origem-nome').textContent = origemAleatoria;
     document.getElementById('card-origem-img').src = origemImg;
-    document.getElementById('card-origem-desc').textContent = origemDesc;
+    document.getElementById('card-origem-desc').innerHTML = origemDesc;
 }
 
 function rolarCaracteristica(tipo) {
@@ -167,7 +167,7 @@ function rolarCaracteristica(tipo) {
     document.getElementById(`card-${tipo}-nome`).textContent = itemAleatorio;
     document.getElementById(`card-${tipo}-img`).src = itemImg;
 
-    document.getElementById(`card-${tipo}-desc`).textContent = itemDesc;
+    document.getElementById(`card-${tipo}-desc`).innerHTML = itemDesc;
 
 }
 
